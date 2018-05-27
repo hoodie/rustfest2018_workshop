@@ -1,0 +1,10 @@
+warning: don't use boolean flags
+ --> $DIR/noflags.rs:1:1
+  |
+1 | / fn flagged_fn(flag: bool) {
+2 | |
+3 | | }
+  | |_^
+  |
+  = note: #[warn(boolargs)] on by default
+

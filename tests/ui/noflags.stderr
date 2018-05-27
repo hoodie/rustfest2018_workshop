@@ -1,4 +1,4 @@
-warning: don't use boolean flags
+warning: using boolean flags, please try to design your API differently
  --> $DIR/noflags.rs:1:1
   |
 1 | / fn flagged_fn(flag: bool) {
